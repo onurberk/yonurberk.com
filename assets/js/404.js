@@ -1,8 +1,3 @@
-/*
-================================================
-            KAR YAĞYOO
-================================================
-*/
 const CANVAS_HEIGHT = 2;
 const SNOWFLAKE_AMOUNT = 200;
 const SNOWFLAKE_SIZE = {

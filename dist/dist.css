@@ -8202,6 +8202,18 @@ button.active:focus,
 .light-yellow {
   background: #ffdf7c;
 }
+.IIENSTITU {
+  background-image: url("../assets/images/IIENSTITU.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.miuul {
+  background-image: url("../assets/images/miuul.jpg");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
 .light-green {
   background: #aec785;
 }
@@ -8212,6 +8224,8 @@ button.active:focus,
   background: #84bedf;
 }
 .light-yellow,
+.IIENSTITU,
+.miuul,
 .light-green,
 .light-violet,
 .light-blue {
@@ -8769,6 +8783,18 @@ button.active:focus,
 .experience-item:hover .light-yellow {
   background: #efca58;
 }
+.experience-item:hover .IIENSTITU {
+  background-image: url("../assets/images/IIENSTITU.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.experience-item:hover .miuul {
+  background-image: url("../assets/images/miuul.jpg");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
 .experience-item:hover .light-green {
   background: #9fba72;
 }
@@ -8820,6 +8846,18 @@ button.active:focus,
 }
 .education-item:hover .light-yellow {
   background: #efca58;
+}
+.education-item:hover .IIENSTITU {
+  background-image: url("../assets/images/IIENSTITU.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.education-item:hover .miuul {
+  background-image: url("../assets/images/miuul.jpg");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
 }
 .education-item:hover .light-green {
   background: #9fba72;
@@ -9631,6 +9669,18 @@ a {
 }
 .footer-container:hover .map-linker .light-yellow {
   background: #efca58;
+}
+.footer-container:hover .map-linker .IIENSTITU {
+  background-image: url("../assets/images/IIENSTITU.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.footer-container:hover .map-linker .miuul {
+  background-image: url("../assets/images/miuul.jpg");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
 }
 .footer-container:hover .map-linker .light-green {
   background: #9fba72;

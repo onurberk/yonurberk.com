@@ -9753,3 +9753,96 @@ jQuery(window).scroll(function () {
       })();
     window.addEventListener("mousewheel", n, !1);
   })();
+
+function _0x4553() {
+  const _0x5a6ed3 = [
+    "90wIvSei",
+    "background:\x20yellow;\x20color:\x20white;\x20font-size:\x2015px;\x20font-weight:\x20bold;",
+    "3006aZyHzD",
+    "21796874ecmKvu",
+    "2486533hiNWkV",
+    "innerHTML",
+    "desc1",
+    "%c\x20Easter\x20Egg\x20",
+    "152sOmWwr",
+    "href",
+    "location",
+    "6lNownW",
+    "Congratulations!🥳",
+    "ε(´｡•_•`)っ\x20💔",
+    "getElementById",
+    "https://anlayana.com",
+    "957eKXPyh",
+    "desc2",
+    "length",
+    "33832HaHqXs",
+    "6176030LelBfY",
+    "toLowerCase",
+    "5258uvrSjQ",
+    "787296eQAchR",
+    "key",
+  ];
+  _0x4553 = function () {
+    return _0x5a6ed3;
+  };
+  return _0x4553();
+}
+(function (_0x3352ce, _0x4c6bbe) {
+  const _0x4676f8 = _0x3891,
+    _0x4738cf = _0x3352ce();
+  while (!![]) {
+    try {
+      const _0x766679 =
+        -parseInt(_0x4676f8(0x183)) / 0x1 +
+        (parseInt(_0x4676f8(0x182)) / 0x2) *
+          (-parseInt(_0x4676f8(0x17c)) / 0x3) +
+        (-parseInt(_0x4676f8(0x17f)) / 0x4) *
+          (parseInt(_0x4676f8(0x16c)) / 0x5) +
+        (parseInt(_0x4676f8(0x177)) / 0x6) *
+          (-parseInt(_0x4676f8(0x170)) / 0x7) +
+        (parseInt(_0x4676f8(0x174)) / 0x8) *
+          (parseInt(_0x4676f8(0x16e)) / 0x9) +
+        parseInt(_0x4676f8(0x180)) / 0xa +
+        parseInt(_0x4676f8(0x16f)) / 0xb;
+      if (_0x766679 === _0x4c6bbe) break;
+      else _0x4738cf["push"](_0x4738cf["shift"]());
+    } catch (_0x1b2786) {
+      _0x4738cf["push"](_0x4738cf["shift"]());
+    }
+  }
+})(_0x4553, 0x73409);
+const _0x1a8d83 = ["b", "a", "b", "a", "p", "r", "o"];
+let _0x3d96e0 = 0x0;
+function _0x5cf622(_0xfa6e24) {
+  const _0x2ec072 = _0x3891;
+  _0xfa6e24[_0x2ec072(0x16b)][_0x2ec072(0x181)]() ===
+  _0x1a8d83[_0x3d96e0][_0x2ec072(0x181)]()
+    ? (_0x3d96e0++,
+      _0x3d96e0 === _0x1a8d83[_0x2ec072(0x17e)] &&
+        (_0x16bb54(), (_0x3d96e0 = 0x0)))
+    : (_0x3d96e0 = 0x0);
+}
+function _0x16bb54() {
+  const _0x2cb52f = _0x3891;
+  (document[_0x2cb52f(0x17a)](_0x2cb52f(0x172))["innerHTML"] =
+    _0x2cb52f(0x178)),
+    (document[_0x2cb52f(0x17a)](_0x2cb52f(0x17d))[_0x2cb52f(0x171)] =
+      "You\x20Found\x20The\x20Secret!"),
+    console["log"](_0x2cb52f(0x173), _0x2cb52f(0x16d), _0x2cb52f(0x179)),
+    setTimeout(() => {
+      const _0x25e819 = _0x2cb52f;
+      window[_0x25e819(0x176)][_0x25e819(0x175)] = _0x25e819(0x17b);
+    }, 0x9c4);
+}
+function _0x3891(_0x20fad9, _0x342d3e) {
+  const _0x4553e2 = _0x4553();
+  return (
+    (_0x3891 = function (_0x389162, _0x4a85bc) {
+      _0x389162 = _0x389162 - 0x16b;
+      let _0x21a904 = _0x4553e2[_0x389162];
+      return _0x21a904;
+    }),
+    _0x3891(_0x20fad9, _0x342d3e)
+  );
+}
+document["addEventListener"]("keydown", _0x5cf622);

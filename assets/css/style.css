@@ -26,9 +26,5 @@ footer a:hover {
   /* 	Position depending how you want it to behave on scroll */
   position: absolute;
   /* 	position: fixed; */
-
-  top: 0;
-  left: 0;
-  width: 100%;
   pointer-events: none;
 }
