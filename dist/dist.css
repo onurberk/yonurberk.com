@@ -8774,7 +8774,14 @@ button.active:focus,
 .experience-item:hover .stay-time {
   border: 15px solid #f1f2f7;
   padding-top: 20px;
-  -webkit-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg); /* ...existing code... */
+  .element {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  /* ...existing code... */
+
   -moz-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
   -o-transform: rotate(360deg);
@@ -8802,6 +8809,13 @@ button.active:focus,
   background: #a188cf;
 }
 .experience-item:hover .light-blue {
+  /* ...existing code... */
+  .element {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  /* ...existing code... */
   background: #67b7e5;
 }
 .experience-item .comments {
