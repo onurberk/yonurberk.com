@@ -8208,8 +8208,86 @@ button.active:focus,
   background-position: center; /* Resmi ortalar */
   background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
 }
+.kahuna {
+  background-image: url("../assets/images/kahuna.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.yea {
+  background-image: url("../assets/images/yea.jpg");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.interprobe {
+  background-image: url("../assets/images/interprobe.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.itu {
+  background-image: url("../assets/images/itu.jpg");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.tbd {
+  background-image: url("../assets/images/tbd.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.hacettepe {
+  background-image: url("../assets/images/hacettepe.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.cankaya {
+  background-image: url("../assets/images/cankaya.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
 .miuul {
   background-image: url("../assets/images/miuul.jpg");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.odtu {
+  background-image: url("../assets/images/odtu.jpeg");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.ortdg {
+  background-image: url("../assets/images/ortdg.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.koru {
+  background-image: url("../assets/images/koru.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.tuna {
+  background-image: url("../assets/images/tuna.jpg");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.pipi {
+  background-image: url("../assets/images/pipi.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.boaz {
+  background-image: url("../assets/images/boaz.png");
   background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
   background-position: center; /* Resmi ortalar */
   background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
@@ -8225,8 +8303,21 @@ button.active:focus,
 }
 .light-yellow,
 .IIENSTITU,
+.kahuna,
+.yea,
+.interprobe,
+.itu,
+.tbd,
 .miuul,
+.hacettepe,
+.cankaya,
 .light-green,
+.odtu,
+.ortdg,
+.koru,
+.tuna,
+.pipi,
+.boaz,
 .light-violet,
 .light-blue {
   -webkit-transition: all 0.35s ease;
@@ -8309,12 +8400,7 @@ button.active:focus,
   top: 7px;
   opacity: 1;
 }
-.btn.download-btn:after {
-  content: "\f019";
-  top: -7px;
-  opacity: 0;
-}
-.btn.download-btn:after,
+
 .btn.download-btn:before {
   font-family: FontAwesome;
   position: absolute;
@@ -8328,14 +8414,7 @@ button.active:focus,
 .btn.download-btn:hover {
   background: #1fb5ac;
 }
-.btn.download-btn:hover:after {
-  top: 7px;
-  opacity: 1;
-}
-.btn.download-btn:hover:before {
-  top: 17px;
-  opacity: 0;
-}
+
 .widget-item {
   background: #fff;
   padding: 30px;
@@ -8796,8 +8875,92 @@ button.active:focus,
   background-position: center; /* Resmi ortalar */
   background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
 }
+.experience-item:hover .kahuna {
+  background-image: url("../assets/images/kahuna.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.experience-item:hover .yea {
+  background-image: url("../assets/images/yea.jpg");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.experience-item:hover .interprobe {
+  background-image: url("../assets/images/interprobe.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.experience-item:hover .itu {
+  background-image: url("../assets/images/itu.jpg");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.experience-item:hover .tbd {
+  background-image: url("../assets/images/tbd.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
 .experience-item:hover .miuul {
   background-image: url("../assets/images/miuul.jpg");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.experience-item:hover .hacettepe {
+  background-image: url("../assets/images/hacettepe.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.experience-item:hover .cankaya {
+  background-image: url("../assets/images/cankaya.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.experience-item:hover .boaz {
+  background-image: url("../assets/images/boaz.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.experience-item:hover .odtu {
+  background-image: url("../assets/images/odtu.jpeg");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.experience-item:hover .ortdg {
+  background-image: url("../assets/images/ortdg.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.experience-item:hover .koru {
+  background-image: url("../assets/images/koru.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.experience-item:hover .tuna {
+  background-image: url("../assets/images/tuna.jpg");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.experience-item:hover .pipi {
+  background-image: url("../assets/images/pipi.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.experience-item:hover .boaz {
+  background-image: url("../assets/images/boaz.png");
   background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
   background-position: center; /* Resmi ortalar */
   background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
@@ -8867,8 +9030,56 @@ button.active:focus,
   background-position: center; /* Resmi ortalar */
   background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
 }
+.education-item:hover .kahuna {
+  background-image: url("../assets/images/kahuna.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.education-item:hover .yea {
+  background-image: url("../assets/images/yea.jpg");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.education-item:hover .interprobe {
+  background-image: url("../assets/images/interprobe.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.education-item:hover .tbd {
+  background-image: url("../assets/images/tbd.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.education-item:hover .itu {
+  background-image: url("../assets/images/itu.jpg");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
 .education-item:hover .miuul {
   background-image: url("../assets/images/miuul.jpg");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.education-item:hover .hacettepe {
+  background-image: url("../assets/images/hacettepe.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.education-item:hover .cankaya {
+  background-image: url("../assets/images/cankaya.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.education-item:hover .boaz {
+  background-image: url("../assets/images/boaz.png");
   background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
   background-position: center; /* Resmi ortalar */
   background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
@@ -9690,8 +9901,92 @@ a {
   background-position: center; /* Resmi ortalar */
   background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
 }
+.footer-container:hover .map-linker .kahuna {
+  background-image: url("../assets/images/kahuna.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.footer-container:hover .map-linker .yea {
+  background-image: url("../assets/images/yea.jpg");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.footer-container:hover .map-linker .interprobe {
+  background-image: url("../assets/images/interprobe.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.footer-container:hover .map-linker .itu {
+  background-image: url("../assets/images/itu.jpg");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.footer-container:hover .map-linker .tbd {
+  background-image: url("../assets/images/tbd.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.footer-container:hover .map-linker .hacettepe {
+  background-image: url("../assets/images/hacettepe.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.footer-container:hover .map-linker .cankaya {
+  background-image: url("../assets/images/cankaya.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.footer-container:hover .map-linker .boaz {
+  background-image: url("../assets/images/boaz.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
 .footer-container:hover .map-linker .miuul {
   background-image: url("../assets/images/miuul.jpg");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.footer-container:hover .map-linker .odtu {
+  background-image: url("../assets/images/odtu.jpeg");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.footer-container:hover .map-linker .ortdg {
+  background-image: url("../assets/images/ortdg.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.footer-container:hover .map-linker .koru {
+  background-image: url("../assets/images/koru.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.footer-container:hover .map-linker .tuna {
+  background-image: url("../assets/images/tuna.jpg");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.footer-container:hover .map-linker .pipi {
+  background-image: url("../assets/images/pipi.png");
+  background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+}
+.footer-container:hover .map-linker .boaz {
+  background-image: url("../assets/images/boaz.png");
   background-size: cover; /* Resmin tamamını kapsayacak şekilde ayarlar */
   background-position: center; /* Resmi ortalar */
   background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
