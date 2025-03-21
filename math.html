@@ -887,6 +887,27 @@
         </div>
         <!-- /.container -->
     </section>
+    <div class="section-heading">
+        <h2 class="section-title">COMMENTS</h2>
+    </div>
+
+    <div id="disqus_thread"></div>
+    <script>
+        var disqus_config = function () {
+            this.page.url = window.location.href;  // Sayfanın URL'sini alır
+            this.page.identifier = window.location.pathname; // Sayfanın benzersiz kimliğini alır
+        };
+
+        (function () {
+            var d = document, s = d.createElement('script');
+            s.src = 'https://anlayana-com.disqus.com/embed.js'; // Burada YOUR_WEBSITE_NAME kısmını kendi Disqus site kısa adın (shortname) ile değiştir
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>To see comments, please use <a href="https://disqus.com/?ref_noscript">JavaScript
+            activate</a>.</noscript>
+
     <script defer="defer" async="async" src="dist/dist.js"></script>
 
     <footer>
