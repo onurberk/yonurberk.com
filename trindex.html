@@ -810,7 +810,7 @@
     </section>
     <script defer="defer" async="async" src="dist/dist.js"></script>
     </section>
-    <div class="section-heading">
+    <!-- <div class="section-heading">
         <h2 class="section-title">YORUMLAR</h2>
     </div>
 
@@ -829,7 +829,76 @@
         })();
     </script>
     <noscript>Yorumları görmek için lütfen <a href="https://disqus.com/?ref_noscript">JavaScript'i
-            etkinleştir</a>.</noscript>
+            etkinleştir</a>.</noscript> -->
+
+    <h2>Yorum Yap</h2>
+    <form id="yorumForm">
+        <input type="text" id="ad" placeholder="Adınız" required><br>
+        <textarea id="yorum" placeholder="Yorumunuz" required></textarea><br>
+        <button type="submit" class="btn">Gönder</button>
+    </form>
+
+    <h2>Yorumlar</h2>
+    <div class="slider-container">
+        <div class="slider" id="yorumlar"></div>
+    </div>
+
+    <div class="buttons">
+        <button class="btn" onclick="onceki()">⬅ Önceki</button>
+        <button class="btn" onclick="sonraki()">Sonraki ➡</button>
+    </div>
+
+    <script>
+        let yorumlarDiv = document.getElementById("yorumlar");
+        let index = 0;
+
+        function yorumlariYukle() {
+            let yorumlar = JSON.parse(localStorage.getItem("yorumlar")) || [];
+            yorumlarDiv.innerHTML = "";
+            yorumlar.forEach((yorum) => {
+                let yorumEl = document.createElement("div");
+                yorumEl.classList.add("yorum");
+                yorumEl.innerHTML = `<div><strong>${yorum.ad}:</strong> <p>${yorum.metin}</p></div>`;
+                yorumlarDiv.appendChild(yorumEl);
+            });
+        }
+
+        document.getElementById("yorumForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+            let ad = document.getElementById("ad").value;
+            let yorumMetni = document.getElementById("yorum").value;
+            if (ad && yorumMetni) {
+                let yorumlar = JSON.parse(localStorage.getItem("yorumlar")) || [];
+                yorumlar.push({ ad: ad, metin: yorumMetni });
+                localStorage.setItem("yorumlar", JSON.stringify(yorumlar));
+                yorumlariYukle();
+                document.getElementById("yorumForm").reset();
+            }
+        });
+
+        function sonraki() {
+            let yorumlar = document.querySelectorAll(".yorum");
+            if (index < yorumlar.length - 1) {
+                index++;
+            } else {
+                index = 0; // Başa dön
+            }
+            yorumlarDiv.style.transform = `translateX(-${index * 100}%)`;
+        }
+
+        function onceki() {
+            let yorumlar = document.querySelectorAll(".yorum");
+            if (index > 0) {
+                index--;
+            } else {
+                index = yorumlar.length - 1; // Sona git
+            }
+            yorumlarDiv.style.transform = `translateX(-${index * 100}%)`;
+        }
+
+        yorumlariYukle();
+    </script>
+
     <footer>
         <p>
             <a href="https://github.com/onurberk/yonurberk.com?tab=security-ov-file">© 2024 Tüm Hakları Saklıdır.</a> |
